@@ -22,6 +22,18 @@
  .mt-0{
   margin-top: 0;
  }
+ .btn-creciendo{
+  background-color: #5a5785!important;
+ }
+ .btn-aportar{
+background-color: #425ca6!important;}
+.btn-customizado {
+     border:none!important;                        
+     padding:15px 10px;
+     margin: 0 1px 15px;
+     font-size: 13px;
+    letter-spacing: 1px;
+}
 .heading-font {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
@@ -198,7 +210,7 @@ header {
 }
 header .header-content {
   text-align: center;
-  padding: 150px 0 50px;
+  padding: 220px 0 50px;
   position: relative;
 }
 header .header-content .header-content-inner {
@@ -223,7 +235,28 @@ header .device-container {
   margin: 0 auto 100px;
 }
 header .device-container .screen img {
-  border-radius: 3px;
+    border-radius: 3px;
+    height: 100%;
+    object-fit: cover;
+}
+@media (min-width: 200px) and (max-width: 768px) {
+  .btn-customizado {
+    width: 100%!important;
+    padding: 15px 0;
+    margin: 0 1px 15px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+header .header-content{
+      text-align: center;
+    padding: 20px 0 50px;
+    position: relative;
+}
+header .header-content .header-content-inner h1 {
+    margin-bottom: 120px;
+    font-size: 40px;
+    margin-top: 140px;
+}
 }
 @media (min-width: 768px) {
   header {
@@ -241,7 +274,7 @@ header .device-container .screen img {
     top: 57%;
     transform: translateY(-50%);
   }
-
+  
   header .header-content .header-content-inner h1 {
     font-size: 35px;
   }
@@ -468,8 +501,8 @@ footer ul li a.active {
 .btn-outline:active,
 .btn-outline.active {
   color: white;
-  background-color: #5778d4;
-  border-color: #5778d4;
+  background-color: #1eade4;
+  border-color: #1eade4;
 }
 .btn {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
